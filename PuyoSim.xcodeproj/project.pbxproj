@@ -10,6 +10,9 @@
 		19CE7F321F0B3CB400D4F1CD /* Bond.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CE7F301F0B3CB400D4F1CD /* Bond.framework */; };
 		19CE7F331F0B3CB400D4F1CD /* ReactiveKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CE7F311F0B3CB400D4F1CD /* ReactiveKit.framework */; };
 		19CE7F361F0B3F2D00D4F1CD /* Diff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CE7F351F0B3F2D00D4F1CD /* Diff.framework */; };
+		19CE7F411F0B60F100D4F1CD /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE7F401F0B60F100D4F1CD /* BoardViewController.swift */; };
+		19CE7F431F0B634300D4F1CD /* BoardViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19CE7F421F0B634300D4F1CD /* BoardViewController.storyboard */; };
+		19CE7F451F0B635200D4F1CD /* BoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE7F441F0B635200D4F1CD /* BoardViewModel.swift */; };
 		19CE83EB1F0B23B0005C0EC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE83EA1F0B23B0005C0EC0 /* AppDelegate.swift */; };
 		19CE83ED1F0B23B0005C0EC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE83EC1F0B23B0005C0EC0 /* ViewController.swift */; };
 		19CE83F01F0B23B0005C0EC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19CE83EE1F0B23B0005C0EC0 /* Main.storyboard */; };
@@ -53,6 +56,9 @@
 		19CE7F301F0B3CB400D4F1CD /* Bond.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bond.framework; path = Carthage/Build/iOS/Bond.framework; sourceTree = "<group>"; };
 		19CE7F311F0B3CB400D4F1CD /* ReactiveKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveKit.framework; path = Carthage/Build/iOS/ReactiveKit.framework; sourceTree = "<group>"; };
 		19CE7F351F0B3F2D00D4F1CD /* Diff.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Diff.framework; path = Carthage/Build/iOS/Diff.framework; sourceTree = "<group>"; };
+		19CE7F401F0B60F100D4F1CD /* BoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
+		19CE7F421F0B634300D4F1CD /* BoardViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BoardViewController.storyboard; sourceTree = "<group>"; };
+		19CE7F441F0B635200D4F1CD /* BoardViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardViewModel.swift; sourceTree = "<group>"; };
 		19CE83E71F0B23B0005C0EC0 /* PuyoSim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuyoSim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19CE83EA1F0B23B0005C0EC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19CE83EC1F0B23B0005C0EC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +124,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		19CE7F3D1F0B60A000D4F1CD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				19CE7F401F0B60F100D4F1CD /* BoardViewController.swift */,
+				19CE7F421F0B634300D4F1CD /* BoardViewController.storyboard */,
+				19CE7F441F0B635200D4F1CD /* BoardViewModel.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		19CE83DE1F0B23B0005C0EC0 = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +158,7 @@
 				19CE843C1F0B2CCD005C0EC0 /* CommonUI */,
 				19CE84371F0B2B9C005C0EC0 /* Common */,
 				19CE83FC1F0B2477005C0EC0 /* Extensions */,
+				19CE7F3D1F0B60A000D4F1CD /* UI */,
 				19CE83EA1F0B23B0005C0EC0 /* AppDelegate.swift */,
 				19CE83EC1F0B23B0005C0EC0 /* ViewController.swift */,
 				19CE83EE1F0B23B0005C0EC0 /* Main.storyboard */,
@@ -278,6 +295,7 @@
 				19CE84471F0B2CF2005C0EC0 /* DatePickerViewController.storyboard in Resources */,
 				19CE844B1F0B2CF2005C0EC0 /* PickerViewController.storyboard in Resources */,
 				19CE83F21F0B23B0005C0EC0 /* Assets.xcassets in Resources */,
+				19CE7F431F0B634300D4F1CD /* BoardViewController.storyboard in Resources */,
 				19CE83F01F0B23B0005C0EC0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +334,7 @@
 				19CE842E1F0B2A6A005C0EC0 /* UIImage+Color.swift in Sources */,
 				19CE844E1F0B2CF2005C0EC0 /* TouchThroughView.swift in Sources */,
 				19CE84281F0B2A6A005C0EC0 /* UIButton+HighlightedColor.swift in Sources */,
+				19CE7F451F0B635200D4F1CD /* BoardViewModel.swift in Sources */,
 				19CE84481F0B2CF2005C0EC0 /* DatePickerViewController.swift in Sources */,
 				19CE84291F0B2A6A005C0EC0 /* UIButton+MultipleTouches.swift in Sources */,
 				19CE83ED1F0B23B0005C0EC0 /* ViewController.swift in Sources */,
@@ -335,6 +354,7 @@
 				19CE842A1F0B2A6A005C0EC0 /* UIButton+TitleDesignable.swift in Sources */,
 				19CE842F1F0B2A6A005C0EC0 /* UIImageView+TemplateImage.swift in Sources */,
 				19CE842C1F0B2A6A005C0EC0 /* UIDevice+Platform.swift in Sources */,
+				19CE7F411F0B60F100D4F1CD /* BoardViewController.swift in Sources */,
 				19CE84261F0B2A6A005C0EC0 /* StringExtension.swift in Sources */,
 				19CE84321F0B2A6A005C0EC0 /* UIViewController+DialogPresentable.swift in Sources */,
 				19CE84331F0B2A6A005C0EC0 /* UIViewController+DrawerPresentable.swift in Sources */,
