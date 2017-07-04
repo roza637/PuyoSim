@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Hqd-5K-chl">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Picker View Controller-->
+        <scene sceneID="ePQ-lh-uPm">
+            <objects>
+                <viewController id="Hqd-5K-chl" customClass="PickerViewController" customModule="FXGOGO" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QQr-ya-xFe"/>
+                        <viewControllerLayoutGuide type="bottom" id="En9-aL-S7l"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MrL-Oi-PeJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w8m-6A-5fE">
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iaf-bW-mXd">
+                                <subviews>
+                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lDT-9N-pw5">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="180" id="OdP-Vl-Ve6"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="dataSource" destination="Hqd-5K-chl" id="ojQ-NQ-DZV"/>
+                                            <outlet property="delegate" destination="Hqd-5K-chl" id="jCf-QP-gNh"/>
+                                        </connections>
+                                    </pickerView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FTh-9l-2Cj">
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="完了"/>
+                                        <connections>
+                                            <action selector="complete" destination="Hqd-5K-chl" eventType="touchUpInside" id="WWC-gy-bqr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="esT-E3-DLA">
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="キャンセル"/>
+                                        <connections>
+                                            <action selector="cancel" destination="Hqd-5K-chl" eventType="touchUpInside" id="28R-Z0-2PX"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="esT-E3-DLA" firstAttribute="leading" secondItem="Iaf-bW-mXd" secondAttribute="leading" constant="10" id="6Av-l6-YUS"/>
+                                    <constraint firstItem="lDT-9N-pw5" firstAttribute="leading" secondItem="Iaf-bW-mXd" secondAttribute="leading" id="H9n-Sa-sf5"/>
+                                    <constraint firstItem="FTh-9l-2Cj" firstAttribute="top" secondItem="Iaf-bW-mXd" secondAttribute="top" id="M46-t7-nMP"/>
+                                    <constraint firstItem="esT-E3-DLA" firstAttribute="top" secondItem="Iaf-bW-mXd" secondAttribute="top" id="PcR-qT-VE4"/>
+                                    <constraint firstAttribute="trailing" secondItem="FTh-9l-2Cj" secondAttribute="trailing" id="RHs-wF-c9I"/>
+                                    <constraint firstAttribute="trailing" secondItem="lDT-9N-pw5" secondAttribute="trailing" id="VaT-3r-PuD"/>
+                                    <constraint firstAttribute="height" constant="220" id="bB8-jQ-lxd"/>
+                                    <constraint firstItem="FTh-9l-2Cj" firstAttribute="width" secondItem="Iaf-bW-mXd" secondAttribute="width" multiplier="100:320" id="evS-bn-tEK"/>
+                                    <constraint firstItem="lDT-9N-pw5" firstAttribute="top" secondItem="esT-E3-DLA" secondAttribute="bottom" id="gDo-Oh-Rgd"/>
+                                    <constraint firstItem="lDT-9N-pw5" firstAttribute="top" secondItem="FTh-9l-2Cj" secondAttribute="bottom" id="kFe-VN-iah"/>
+                                    <constraint firstAttribute="bottom" secondItem="lDT-9N-pw5" secondAttribute="bottom" id="mgO-6e-HQj"/>
+                                    <constraint firstItem="esT-E3-DLA" firstAttribute="width" secondItem="Iaf-bW-mXd" secondAttribute="width" multiplier="100:320" id="s65-Tw-zD5"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="w8m-6A-5fE" firstAttribute="leading" secondItem="MrL-Oi-PeJ" secondAttribute="leading" id="5Ie-5I-aQA"/>
+                            <constraint firstAttribute="trailing" secondItem="w8m-6A-5fE" secondAttribute="trailing" id="D2w-wd-BFf"/>
+                            <constraint firstAttribute="trailing" secondItem="Iaf-bW-mXd" secondAttribute="trailing" id="VfV-dO-KoA"/>
+                            <constraint firstItem="Iaf-bW-mXd" firstAttribute="leading" secondItem="MrL-Oi-PeJ" secondAttribute="leading" id="YzN-iF-CwN"/>
+                            <constraint firstItem="En9-aL-S7l" firstAttribute="top" secondItem="Iaf-bW-mXd" secondAttribute="bottom" constant="-220" id="egO-bG-o6N"/>
+                            <constraint firstItem="En9-aL-S7l" firstAttribute="top" secondItem="w8m-6A-5fE" secondAttribute="bottom" id="iwT-qR-NvY"/>
+                            <constraint firstItem="w8m-6A-5fE" firstAttribute="top" secondItem="MrL-Oi-PeJ" secondAttribute="top" id="uui-f1-FPG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundView" destination="w8m-6A-5fE" id="k65-nz-0YX"/>
+                        <outlet property="pickerBackY" destination="egO-bG-o6N" id="0Z4-kx-I5X"/>
+                        <outlet property="pickerView" destination="lDT-9N-pw5" id="LLv-wK-LkV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wmw-gH-rU3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="613.60000000000002" y="-196.55172413793105"/>
+        </scene>
+    </scenes>
+</document>

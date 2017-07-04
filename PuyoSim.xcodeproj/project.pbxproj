@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19CE7F321F0B3CB400D4F1CD /* Bond.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CE7F301F0B3CB400D4F1CD /* Bond.framework */; };
+		19CE7F331F0B3CB400D4F1CD /* ReactiveKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CE7F311F0B3CB400D4F1CD /* ReactiveKit.framework */; };
+		19CE7F361F0B3F2D00D4F1CD /* Diff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CE7F351F0B3F2D00D4F1CD /* Diff.framework */; };
+		19CE83EB1F0B23B0005C0EC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE83EA1F0B23B0005C0EC0 /* AppDelegate.swift */; };
+		19CE83ED1F0B23B0005C0EC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE83EC1F0B23B0005C0EC0 /* ViewController.swift */; };
+		19CE83F01F0B23B0005C0EC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19CE83EE1F0B23B0005C0EC0 /* Main.storyboard */; };
+		19CE83F21F0B23B0005C0EC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19CE83F11F0B23B0005C0EC0 /* Assets.xcassets */; };
+		19CE83F51F0B23B0005C0EC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19CE83F31F0B23B0005C0EC0 /* LaunchScreen.storyboard */; };
+		19CE841E1F0B2A6A005C0EC0 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE84051F0B2A6A005C0EC0 /* ArrayExtension.swift */; };
+		19CE841F1F0B2A6A005C0EC0 /* CGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE84061F0B2A6A005C0EC0 /* CGRectExtension.swift */; };
+		19CE84201F0B2A6A005C0EC0 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE84071F0B2A6A005C0EC0 /* DateExtension.swift */; };
+		19CE84211F0B2A6A005C0EC0 /* Dictionary+JsonString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE84081F0B2A6A005C0EC0 /* Dictionary+JsonString.swift */; };
+		19CE84221F0B2A6A005C0EC0 /* Enum+Enumerable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE84091F0B2A6A005C0EC0 /* Enum+Enumerable.swift */; };
+		19CE84231F0B2A6A005C0EC0 /* JsonConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE840A1F0B2A6A005C0EC0 /* JsonConvertible.swift */; };
+		19CE84241F0B2A6A005C0EC0 /* NSDecimalNumberExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE840B1F0B2A6A005C0EC0 /* NSDecimalNumberExtension.swift */; };
+		19CE84251F0B2A6A005C0EC0 /* NSDecimalNumberOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE840C1F0B2A6A005C0EC0 /* NSDecimalNumberOperator.swift */; };
+		19CE84261F0B2A6A005C0EC0 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE840D1F0B2A6A005C0EC0 /* StringExtension.swift */; };
+		19CE84271F0B2A6A005C0EC0 /* UIAlertControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE840E1F0B2A6A005C0EC0 /* UIAlertControllerExtension.swift */; };
+		19CE84281F0B2A6A005C0EC0 /* UIButton+HighlightedColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE840F1F0B2A6A005C0EC0 /* UIButton+HighlightedColor.swift */; };
+		19CE84291F0B2A6A005C0EC0 /* UIButton+MultipleTouches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE84101F0B2A6A005C0EC0 /* UIButton+MultipleTouches.swift */; };
+		19CE842A1F0B2A6A005C0EC0 /* UIButton+TitleDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE84111F0B2A6A005C0EC0 /* UIButton+TitleDesignable.swift */; };
+		19CE842B1F0B2A6A005C0EC0 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE84121F0B2A6A005C0EC0 /* UIColorExtension.swift */; };
+		19CE842C1F0B2A6A005C0EC0 /* UIDevice+Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE84131F0B2A6A005C0EC0 /* UIDevice+Platform.swift */; };
+		19CE842D1F0B2A6A005C0EC0 /* UIGestureRecognizerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE84141F0B2A6A005C0EC0 /* UIGestureRecognizerExtension.swift */; };
+		19CE842E1F0B2A6A005C0EC0 /* UIImage+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE84151F0B2A6A005C0EC0 /* UIImage+Color.swift */; };
+		19CE842F1F0B2A6A005C0EC0 /* UIImageView+TemplateImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE84161F0B2A6A005C0EC0 /* UIImageView+TemplateImage.swift */; };
+		19CE84311F0B2A6A005C0EC0 /* UIView+Corner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE84181F0B2A6A005C0EC0 /* UIView+Corner.swift */; };
+		19CE84321F0B2A6A005C0EC0 /* UIViewController+DialogPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE84191F0B2A6A005C0EC0 /* UIViewController+DialogPresentable.swift */; };
+		19CE84331F0B2A6A005C0EC0 /* UIViewController+DrawerPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE841A1F0B2A6A005C0EC0 /* UIViewController+DrawerPresentable.swift */; };
+		19CE84341F0B2A6A005C0EC0 /* UIViewController+FrontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE841B1F0B2A6A005C0EC0 /* UIViewController+FrontViewController.swift */; };
+		19CE84351F0B2A6A005C0EC0 /* UIViewController+Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE841C1F0B2A6A005C0EC0 /* UIViewController+Storyboard.swift */; };
+		19CE84361F0B2A6A005C0EC0 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE841D1F0B2A6A005C0EC0 /* UIViewExtension.swift */; };
+		19CE84471F0B2CF2005C0EC0 /* DatePickerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19CE843E1F0B2CF2005C0EC0 /* DatePickerViewController.storyboard */; };
+		19CE84481F0B2CF2005C0EC0 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE843F1F0B2CF2005C0EC0 /* DatePickerViewController.swift */; };
+		19CE84491F0B2CF2005C0EC0 /* DrawerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19CE84401F0B2CF2005C0EC0 /* DrawerViewController.storyboard */; };
+		19CE844A1F0B2CF2005C0EC0 /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE84411F0B2CF2005C0EC0 /* DrawerViewController.swift */; };
+		19CE844B1F0B2CF2005C0EC0 /* PickerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19CE84421F0B2CF2005C0EC0 /* PickerViewController.storyboard */; };
+		19CE844C1F0B2CF2005C0EC0 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE84431F0B2CF2005C0EC0 /* PickerViewController.swift */; };
+		19CE844E1F0B2CF2005C0EC0 /* TouchThroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE84451F0B2CF2005C0EC0 /* TouchThroughView.swift */; };
+		19CE84501F0B2D06005C0EC0 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE844F1F0B2D06005C0EC0 /* DIContainer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19CE7F301F0B3CB400D4F1CD /* Bond.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bond.framework; path = Carthage/Build/iOS/Bond.framework; sourceTree = "<group>"; };
+		19CE7F311F0B3CB400D4F1CD /* ReactiveKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveKit.framework; path = Carthage/Build/iOS/ReactiveKit.framework; sourceTree = "<group>"; };
+		19CE7F351F0B3F2D00D4F1CD /* Diff.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Diff.framework; path = Carthage/Build/iOS/Diff.framework; sourceTree = "<group>"; };
+		19CE83E71F0B23B0005C0EC0 /* PuyoSim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuyoSim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19CE83EA1F0B23B0005C0EC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19CE83EC1F0B23B0005C0EC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19CE83EF1F0B23B0005C0EC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19CE83F11F0B23B0005C0EC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19CE83F41F0B23B0005C0EC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19CE83F61F0B23B0005C0EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19CE84051F0B2A6A005C0EC0 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArrayExtension.swift; path = PuyoSim/Extensions/ArrayExtension.swift; sourceTree = SOURCE_ROOT; };
+		19CE84061F0B2A6A005C0EC0 /* CGRectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGRectExtension.swift; path = PuyoSim/Extensions/CGRectExtension.swift; sourceTree = SOURCE_ROOT; };
+		19CE84071F0B2A6A005C0EC0 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateExtension.swift; path = PuyoSim/Extensions/DateExtension.swift; sourceTree = SOURCE_ROOT; };
+		19CE84081F0B2A6A005C0EC0 /* Dictionary+JsonString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Dictionary+JsonString.swift"; path = "PuyoSim/Extensions/Dictionary+JsonString.swift"; sourceTree = SOURCE_ROOT; };
+		19CE84091F0B2A6A005C0EC0 /* Enum+Enumerable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Enum+Enumerable.swift"; path = "PuyoSim/Extensions/Enum+Enumerable.swift"; sourceTree = SOURCE_ROOT; };
+		19CE840A1F0B2A6A005C0EC0 /* JsonConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JsonConvertible.swift; path = PuyoSim/Extensions/JsonConvertible.swift; sourceTree = SOURCE_ROOT; };
+		19CE840B1F0B2A6A005C0EC0 /* NSDecimalNumberExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSDecimalNumberExtension.swift; path = PuyoSim/Extensions/NSDecimalNumberExtension.swift; sourceTree = SOURCE_ROOT; };
+		19CE840C1F0B2A6A005C0EC0 /* NSDecimalNumberOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSDecimalNumberOperator.swift; path = PuyoSim/Extensions/NSDecimalNumberOperator.swift; sourceTree = SOURCE_ROOT; };
+		19CE840D1F0B2A6A005C0EC0 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = PuyoSim/Extensions/StringExtension.swift; sourceTree = SOURCE_ROOT; };
+		19CE840E1F0B2A6A005C0EC0 /* UIAlertControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIAlertControllerExtension.swift; path = PuyoSim/Extensions/UIAlertControllerExtension.swift; sourceTree = SOURCE_ROOT; };
+		19CE840F1F0B2A6A005C0EC0 /* UIButton+HighlightedColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIButton+HighlightedColor.swift"; path = "PuyoSim/Extensions/UIButton+HighlightedColor.swift"; sourceTree = SOURCE_ROOT; };
+		19CE84101F0B2A6A005C0EC0 /* UIButton+MultipleTouches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIButton+MultipleTouches.swift"; path = "PuyoSim/Extensions/UIButton+MultipleTouches.swift"; sourceTree = SOURCE_ROOT; };
+		19CE84111F0B2A6A005C0EC0 /* UIButton+TitleDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIButton+TitleDesignable.swift"; path = "PuyoSim/Extensions/UIButton+TitleDesignable.swift"; sourceTree = SOURCE_ROOT; };
+		19CE84121F0B2A6A005C0EC0 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = PuyoSim/Extensions/UIColorExtension.swift; sourceTree = SOURCE_ROOT; };
+		19CE84131F0B2A6A005C0EC0 /* UIDevice+Platform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIDevice+Platform.swift"; path = "PuyoSim/Extensions/UIDevice+Platform.swift"; sourceTree = SOURCE_ROOT; };
+		19CE84141F0B2A6A005C0EC0 /* UIGestureRecognizerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIGestureRecognizerExtension.swift; path = PuyoSim/Extensions/UIGestureRecognizerExtension.swift; sourceTree = SOURCE_ROOT; };
+		19CE84151F0B2A6A005C0EC0 /* UIImage+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Color.swift"; path = "PuyoSim/Extensions/UIImage+Color.swift"; sourceTree = SOURCE_ROOT; };
+		19CE84161F0B2A6A005C0EC0 /* UIImageView+TemplateImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView+TemplateImage.swift"; path = "PuyoSim/Extensions/UIImageView+TemplateImage.swift"; sourceTree = SOURCE_ROOT; };
+		19CE84181F0B2A6A005C0EC0 /* UIView+Corner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Corner.swift"; path = "PuyoSim/Extensions/UIView+Corner.swift"; sourceTree = SOURCE_ROOT; };
+		19CE84191F0B2A6A005C0EC0 /* UIViewController+DialogPresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+DialogPresentable.swift"; path = "PuyoSim/Extensions/UIViewController+DialogPresentable.swift"; sourceTree = SOURCE_ROOT; };
+		19CE841A1F0B2A6A005C0EC0 /* UIViewController+DrawerPresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+DrawerPresentable.swift"; path = "PuyoSim/Extensions/UIViewController+DrawerPresentable.swift"; sourceTree = SOURCE_ROOT; };
+		19CE841B1F0B2A6A005C0EC0 /* UIViewController+FrontViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+FrontViewController.swift"; path = "PuyoSim/Extensions/UIViewController+FrontViewController.swift"; sourceTree = SOURCE_ROOT; };
+		19CE841C1F0B2A6A005C0EC0 /* UIViewController+Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Storyboard.swift"; path = "PuyoSim/Extensions/UIViewController+Storyboard.swift"; sourceTree = SOURCE_ROOT; };
+		19CE841D1F0B2A6A005C0EC0 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewExtension.swift; path = PuyoSim/Extensions/UIViewExtension.swift; sourceTree = SOURCE_ROOT; };
+		19CE843E1F0B2CF2005C0EC0 /* DatePickerViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DatePickerViewController.storyboard; sourceTree = "<group>"; };
+		19CE843F1F0B2CF2005C0EC0 /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		19CE84401F0B2CF2005C0EC0 /* DrawerViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DrawerViewController.storyboard; sourceTree = "<group>"; };
+		19CE84411F0B2CF2005C0EC0 /* DrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
+		19CE84421F0B2CF2005C0EC0 /* PickerViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PickerViewController.storyboard; sourceTree = "<group>"; };
+		19CE84431F0B2CF2005C0EC0 /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		19CE84451F0B2CF2005C0EC0 /* TouchThroughView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchThroughView.swift; sourceTree = "<group>"; };
+		19CE844F1F0B2D06005C0EC0 /* DIContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19CE83E41F0B23B0005C0EC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19CE7F361F0B3F2D00D4F1CD /* Diff.framework in Frameworks */,
+				19CE7F321F0B3CB400D4F1CD /* Bond.framework in Frameworks */,
+				19CE7F331F0B3CB400D4F1CD /* ReactiveKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19CE7F2F1F0B3CB400D4F1CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19CE7F351F0B3F2D00D4F1CD /* Diff.framework */,
+				19CE7F301F0B3CB400D4F1CD /* Bond.framework */,
+				19CE7F311F0B3CB400D4F1CD /* ReactiveKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19CE83DE1F0B23B0005C0EC0 = {
+			isa = PBXGroup;
+			children = (
+				19CE83E91F0B23B0005C0EC0 /* PuyoSim */,
+				19CE83E81F0B23B0005C0EC0 /* Products */,
+				19CE7F2F1F0B3CB400D4F1CD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		19CE83E81F0B23B0005C0EC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19CE83E71F0B23B0005C0EC0 /* PuyoSim.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19CE83E91F0B23B0005C0EC0 /* PuyoSim */ = {
+			isa = PBXGroup;
+			children = (
+				19CE84511F0B2EA1005C0EC0 /* BondUtil */,
+				19CE843C1F0B2CCD005C0EC0 /* CommonUI */,
+				19CE84371F0B2B9C005C0EC0 /* Common */,
+				19CE83FC1F0B2477005C0EC0 /* Extensions */,
+				19CE83EA1F0B23B0005C0EC0 /* AppDelegate.swift */,
+				19CE83EC1F0B23B0005C0EC0 /* ViewController.swift */,
+				19CE83EE1F0B23B0005C0EC0 /* Main.storyboard */,
+				19CE83F11F0B23B0005C0EC0 /* Assets.xcassets */,
+				19CE83F31F0B23B0005C0EC0 /* LaunchScreen.storyboard */,
+				19CE83F61F0B23B0005C0EC0 /* Info.plist */,
+			);
+			path = PuyoSim;
+			sourceTree = "<group>";
+		};
+		19CE83FC1F0B2477005C0EC0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				19CE84051F0B2A6A005C0EC0 /* ArrayExtension.swift */,
+				19CE84061F0B2A6A005C0EC0 /* CGRectExtension.swift */,
+				19CE84071F0B2A6A005C0EC0 /* DateExtension.swift */,
+				19CE84081F0B2A6A005C0EC0 /* Dictionary+JsonString.swift */,
+				19CE84091F0B2A6A005C0EC0 /* Enum+Enumerable.swift */,
+				19CE840A1F0B2A6A005C0EC0 /* JsonConvertible.swift */,
+				19CE840B1F0B2A6A005C0EC0 /* NSDecimalNumberExtension.swift */,
+				19CE840C1F0B2A6A005C0EC0 /* NSDecimalNumberOperator.swift */,
+				19CE840D1F0B2A6A005C0EC0 /* StringExtension.swift */,
+				19CE840E1F0B2A6A005C0EC0 /* UIAlertControllerExtension.swift */,
+				19CE840F1F0B2A6A005C0EC0 /* UIButton+HighlightedColor.swift */,
+				19CE84101F0B2A6A005C0EC0 /* UIButton+MultipleTouches.swift */,
+				19CE84111F0B2A6A005C0EC0 /* UIButton+TitleDesignable.swift */,
+				19CE84121F0B2A6A005C0EC0 /* UIColorExtension.swift */,
+				19CE84131F0B2A6A005C0EC0 /* UIDevice+Platform.swift */,
+				19CE84141F0B2A6A005C0EC0 /* UIGestureRecognizerExtension.swift */,
+				19CE84151F0B2A6A005C0EC0 /* UIImage+Color.swift */,
+				19CE84161F0B2A6A005C0EC0 /* UIImageView+TemplateImage.swift */,
+				19CE84181F0B2A6A005C0EC0 /* UIView+Corner.swift */,
+				19CE84191F0B2A6A005C0EC0 /* UIViewController+DialogPresentable.swift */,
+				19CE841A1F0B2A6A005C0EC0 /* UIViewController+DrawerPresentable.swift */,
+				19CE841B1F0B2A6A005C0EC0 /* UIViewController+FrontViewController.swift */,
+				19CE841C1F0B2A6A005C0EC0 /* UIViewController+Storyboard.swift */,
+				19CE841D1F0B2A6A005C0EC0 /* UIViewExtension.swift */,
+			);
+			name = Extensions;
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		19CE84371F0B2B9C005C0EC0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				19CE844F1F0B2D06005C0EC0 /* DIContainer.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		19CE843C1F0B2CCD005C0EC0 /* CommonUI */ = {
+			isa = PBXGroup;
+			children = (
+				19CE843E1F0B2CF2005C0EC0 /* DatePickerViewController.storyboard */,
+				19CE843F1F0B2CF2005C0EC0 /* DatePickerViewController.swift */,
+				19CE84401F0B2CF2005C0EC0 /* DrawerViewController.storyboard */,
+				19CE84411F0B2CF2005C0EC0 /* DrawerViewController.swift */,
+				19CE84421F0B2CF2005C0EC0 /* PickerViewController.storyboard */,
+				19CE84431F0B2CF2005C0EC0 /* PickerViewController.swift */,
+				19CE84451F0B2CF2005C0EC0 /* TouchThroughView.swift */,
+			);
+			path = CommonUI;
+			sourceTree = "<group>";
+		};
+		19CE84511F0B2EA1005C0EC0 /* BondUtil */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = BondUtil;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19CE83E61F0B23B0005C0EC0 /* PuyoSim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19CE83F91F0B23B0005C0EC0 /* Build configuration list for PBXNativeTarget "PuyoSim" */;
+			buildPhases = (
+				19CE83E31F0B23B0005C0EC0 /* Sources */,
+				19CE83E41F0B23B0005C0EC0 /* Frameworks */,
+				19CE83E51F0B23B0005C0EC0 /* Resources */,
+				19CE7F341F0B3DEC00D4F1CD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PuyoSim;
+			productName = PuyoSim;
+			productReference = 19CE83E71F0B23B0005C0EC0 /* PuyoSim.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19CE83DF1F0B23B0005C0EC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = roz;
+				TargetAttributes = {
+					19CE83E61F0B23B0005C0EC0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 19CE83E21F0B23B0005C0EC0 /* Build configuration list for PBXProject "PuyoSim" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19CE83DE1F0B23B0005C0EC0;
+			productRefGroup = 19CE83E81F0B23B0005C0EC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19CE83E61F0B23B0005C0EC0 /* PuyoSim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19CE83E51F0B23B0005C0EC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19CE83F51F0B23B0005C0EC0 /* LaunchScreen.storyboard in Resources */,
+				19CE84491F0B2CF2005C0EC0 /* DrawerViewController.storyboard in Resources */,
+				19CE84471F0B2CF2005C0EC0 /* DatePickerViewController.storyboard in Resources */,
+				19CE844B1F0B2CF2005C0EC0 /* PickerViewController.storyboard in Resources */,
+				19CE83F21F0B23B0005C0EC0 /* Assets.xcassets in Resources */,
+				19CE83F01F0B23B0005C0EC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19CE7F341F0B3DEC00D4F1CD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Bond.framework",
+				"$(SRCROOT)//Carthage/Build/iOS/Diff.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19CE83E31F0B23B0005C0EC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19CE84211F0B2A6A005C0EC0 /* Dictionary+JsonString.swift in Sources */,
+				19CE841E1F0B2A6A005C0EC0 /* ArrayExtension.swift in Sources */,
+				19CE84201F0B2A6A005C0EC0 /* DateExtension.swift in Sources */,
+				19CE842D1F0B2A6A005C0EC0 /* UIGestureRecognizerExtension.swift in Sources */,
+				19CE841F1F0B2A6A005C0EC0 /* CGRectExtension.swift in Sources */,
+				19CE842E1F0B2A6A005C0EC0 /* UIImage+Color.swift in Sources */,
+				19CE844E1F0B2CF2005C0EC0 /* TouchThroughView.swift in Sources */,
+				19CE84281F0B2A6A005C0EC0 /* UIButton+HighlightedColor.swift in Sources */,
+				19CE84481F0B2CF2005C0EC0 /* DatePickerViewController.swift in Sources */,
+				19CE84291F0B2A6A005C0EC0 /* UIButton+MultipleTouches.swift in Sources */,
+				19CE83ED1F0B23B0005C0EC0 /* ViewController.swift in Sources */,
+				19CE84311F0B2A6A005C0EC0 /* UIView+Corner.swift in Sources */,
+				19CE84251F0B2A6A005C0EC0 /* NSDecimalNumberOperator.swift in Sources */,
+				19CE84351F0B2A6A005C0EC0 /* UIViewController+Storyboard.swift in Sources */,
+				19CE84221F0B2A6A005C0EC0 /* Enum+Enumerable.swift in Sources */,
+				19CE84341F0B2A6A005C0EC0 /* UIViewController+FrontViewController.swift in Sources */,
+				19CE844C1F0B2CF2005C0EC0 /* PickerViewController.swift in Sources */,
+				19CE84241F0B2A6A005C0EC0 /* NSDecimalNumberExtension.swift in Sources */,
+				19CE844A1F0B2CF2005C0EC0 /* DrawerViewController.swift in Sources */,
+				19CE84361F0B2A6A005C0EC0 /* UIViewExtension.swift in Sources */,
+				19CE84501F0B2D06005C0EC0 /* DIContainer.swift in Sources */,
+				19CE84271F0B2A6A005C0EC0 /* UIAlertControllerExtension.swift in Sources */,
+				19CE842B1F0B2A6A005C0EC0 /* UIColorExtension.swift in Sources */,
+				19CE83EB1F0B23B0005C0EC0 /* AppDelegate.swift in Sources */,
+				19CE842A1F0B2A6A005C0EC0 /* UIButton+TitleDesignable.swift in Sources */,
+				19CE842F1F0B2A6A005C0EC0 /* UIImageView+TemplateImage.swift in Sources */,
+				19CE842C1F0B2A6A005C0EC0 /* UIDevice+Platform.swift in Sources */,
+				19CE84261F0B2A6A005C0EC0 /* StringExtension.swift in Sources */,
+				19CE84321F0B2A6A005C0EC0 /* UIViewController+DialogPresentable.swift in Sources */,
+				19CE84331F0B2A6A005C0EC0 /* UIViewController+DrawerPresentable.swift in Sources */,
+				19CE84231F0B2A6A005C0EC0 /* JsonConvertible.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		19CE83EE1F0B23B0005C0EC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19CE83EF1F0B23B0005C0EC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19CE83F31F0B23B0005C0EC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19CE83F41F0B23B0005C0EC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19CE83F71F0B23B0005C0EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19CE83F81F0B23B0005C0EC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19CE83FA1F0B23B0005C0EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = PuyoSim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roza.PuyoSim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		19CE83FB1F0B23B0005C0EC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = PuyoSim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roza.PuyoSim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19CE83E21F0B23B0005C0EC0 /* Build configuration list for PBXProject "PuyoSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19CE83F71F0B23B0005C0EC0 /* Debug */,
+				19CE83F81F0B23B0005C0EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19CE83F91F0B23B0005C0EC0 /* Build configuration list for PBXNativeTarget "PuyoSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19CE83FA1F0B23B0005C0EC0 /* Debug */,
+				19CE83FB1F0B23B0005C0EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19CE83DF1F0B23B0005C0EC0 /* Project object */;
+}
