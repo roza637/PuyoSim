@@ -55,6 +55,7 @@
 		19D7A5631F6B66FF00EE78AE /* OverlayPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D7A5601F6B66FF00EE78AE /* OverlayPresentation.swift */; };
 		19D7A5641F6B66FF00EE78AE /* ToastOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D7A5611F6B66FF00EE78AE /* ToastOverlayViewController.swift */; };
 		19D7A5651F6B66FF00EE78AE /* TouchThroughWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D7A5621F6B66FF00EE78AE /* TouchThroughWindow.swift */; };
+		19D7A5671F6B679200EE78AE /* LocalNotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D7A5661F6B679200EE78AE /* LocalNotificationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,6 +109,7 @@
 		19D7A5601F6B66FF00EE78AE /* OverlayPresentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayPresentation.swift; sourceTree = "<group>"; };
 		19D7A5611F6B66FF00EE78AE /* ToastOverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastOverlayViewController.swift; sourceTree = "<group>"; };
 		19D7A5621F6B66FF00EE78AE /* TouchThroughWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchThroughWindow.swift; sourceTree = "<group>"; };
+		19D7A5661F6B679200EE78AE /* LocalNotificationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalNotificationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +226,7 @@
 		19CE84371F0B2B9C005C0EC0 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				19D7A5661F6B679200EE78AE /* LocalNotificationModel.swift */,
 				19CE844F1F0B2D06005C0EC0 /* DIContainer.swift */,
 			);
 			path = Common;
@@ -365,6 +368,7 @@
 				19D7A5641F6B66FF00EE78AE /* ToastOverlayViewController.swift in Sources */,
 				19CE83ED1F0B23B0005C0EC0 /* ViewController.swift in Sources */,
 				19CE84311F0B2A6A005C0EC0 /* UIView+Corner.swift in Sources */,
+				19D7A5671F6B679200EE78AE /* LocalNotificationModel.swift in Sources */,
 				19CE84251F0B2A6A005C0EC0 /* NSDecimalNumberOperator.swift in Sources */,
 				19CE84351F0B2A6A005C0EC0 /* UIViewController+Storyboard.swift in Sources */,
 				19CE84221F0B2A6A005C0EC0 /* Enum+Enumerable.swift in Sources */,
