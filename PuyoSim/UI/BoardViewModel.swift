@@ -17,13 +17,3 @@ class PuyoViewModel {
     let isGhost = Observable(false)
     let type = Observable<PuyoType>(.blank)
 }
-
-
-enum PuyoType{
-    case blank
-    case red
-    case green
-    case blue
-    case yellow
-    case purple
-}

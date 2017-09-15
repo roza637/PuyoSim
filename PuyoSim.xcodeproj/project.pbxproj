@@ -13,6 +13,8 @@
 		19CE7F411F0B60F100D4F1CD /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE7F401F0B60F100D4F1CD /* BoardViewController.swift */; };
 		19CE7F431F0B634300D4F1CD /* BoardViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19CE7F421F0B634300D4F1CD /* BoardViewController.storyboard */; };
 		19CE7F451F0B635200D4F1CD /* BoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE7F441F0B635200D4F1CD /* BoardViewModel.swift */; };
+		19CE7F481F0C882000D4F1CD /* BoardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE7F471F0C882000D4F1CD /* BoardModel.swift */; };
+		19CE7F4A1F0C88B000D4F1CD /* Defines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE7F491F0C88B000D4F1CD /* Defines.swift */; };
 		19CE83EB1F0B23B0005C0EC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE83EA1F0B23B0005C0EC0 /* AppDelegate.swift */; };
 		19CE83ED1F0B23B0005C0EC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE83EC1F0B23B0005C0EC0 /* ViewController.swift */; };
 		19CE83F01F0B23B0005C0EC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19CE83EE1F0B23B0005C0EC0 /* Main.storyboard */; };
@@ -50,6 +52,9 @@
 		19CE844C1F0B2CF2005C0EC0 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE84431F0B2CF2005C0EC0 /* PickerViewController.swift */; };
 		19CE844E1F0B2CF2005C0EC0 /* TouchThroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE84451F0B2CF2005C0EC0 /* TouchThroughView.swift */; };
 		19CE84501F0B2D06005C0EC0 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE844F1F0B2D06005C0EC0 /* DIContainer.swift */; };
+		19D7A5631F6B66FF00EE78AE /* OverlayPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D7A5601F6B66FF00EE78AE /* OverlayPresentation.swift */; };
+		19D7A5641F6B66FF00EE78AE /* ToastOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D7A5611F6B66FF00EE78AE /* ToastOverlayViewController.swift */; };
+		19D7A5651F6B66FF00EE78AE /* TouchThroughWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D7A5621F6B66FF00EE78AE /* TouchThroughWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +64,8 @@
 		19CE7F401F0B60F100D4F1CD /* BoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
 		19CE7F421F0B634300D4F1CD /* BoardViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BoardViewController.storyboard; sourceTree = "<group>"; };
 		19CE7F441F0B635200D4F1CD /* BoardViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardViewModel.swift; sourceTree = "<group>"; };
+		19CE7F471F0C882000D4F1CD /* BoardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardModel.swift; sourceTree = "<group>"; };
+		19CE7F491F0C88B000D4F1CD /* Defines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Defines.swift; sourceTree = "<group>"; };
 		19CE83E71F0B23B0005C0EC0 /* PuyoSim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuyoSim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19CE83EA1F0B23B0005C0EC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19CE83EC1F0B23B0005C0EC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +105,9 @@
 		19CE84431F0B2CF2005C0EC0 /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		19CE84451F0B2CF2005C0EC0 /* TouchThroughView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchThroughView.swift; sourceTree = "<group>"; };
 		19CE844F1F0B2D06005C0EC0 /* DIContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
+		19D7A5601F6B66FF00EE78AE /* OverlayPresentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayPresentation.swift; sourceTree = "<group>"; };
+		19D7A5611F6B66FF00EE78AE /* ToastOverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastOverlayViewController.swift; sourceTree = "<group>"; };
+		19D7A5621F6B66FF00EE78AE /* TouchThroughWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchThroughWindow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +144,15 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
+		19CE7F461F0C87E700D4F1CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				19CE7F491F0C88B000D4F1CD /* Defines.swift */,
+				19CE7F471F0C882000D4F1CD /* BoardModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		19CE83DE1F0B23B0005C0EC0 = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +177,7 @@
 				19CE843C1F0B2CCD005C0EC0 /* CommonUI */,
 				19CE84371F0B2B9C005C0EC0 /* Common */,
 				19CE83FC1F0B2477005C0EC0 /* Extensions */,
+				19CE7F461F0C87E700D4F1CD /* Model */,
 				19CE7F3D1F0B60A000D4F1CD /* UI */,
 				19CE83EA1F0B23B0005C0EC0 /* AppDelegate.swift */,
 				19CE83EC1F0B23B0005C0EC0 /* ViewController.swift */,
@@ -212,6 +232,9 @@
 		19CE843C1F0B2CCD005C0EC0 /* CommonUI */ = {
 			isa = PBXGroup;
 			children = (
+				19D7A5601F6B66FF00EE78AE /* OverlayPresentation.swift */,
+				19D7A5611F6B66FF00EE78AE /* ToastOverlayViewController.swift */,
+				19D7A5621F6B66FF00EE78AE /* TouchThroughWindow.swift */,
 				19CE843E1F0B2CF2005C0EC0 /* DatePickerViewController.storyboard */,
 				19CE843F1F0B2CF2005C0EC0 /* DatePickerViewController.swift */,
 				19CE84401F0B2CF2005C0EC0 /* DrawerViewController.storyboard */,
@@ -332,11 +355,14 @@
 				19CE842D1F0B2A6A005C0EC0 /* UIGestureRecognizerExtension.swift in Sources */,
 				19CE841F1F0B2A6A005C0EC0 /* CGRectExtension.swift in Sources */,
 				19CE842E1F0B2A6A005C0EC0 /* UIImage+Color.swift in Sources */,
+				19D7A5631F6B66FF00EE78AE /* OverlayPresentation.swift in Sources */,
+				19D7A5651F6B66FF00EE78AE /* TouchThroughWindow.swift in Sources */,
 				19CE844E1F0B2CF2005C0EC0 /* TouchThroughView.swift in Sources */,
 				19CE84281F0B2A6A005C0EC0 /* UIButton+HighlightedColor.swift in Sources */,
 				19CE7F451F0B635200D4F1CD /* BoardViewModel.swift in Sources */,
 				19CE84481F0B2CF2005C0EC0 /* DatePickerViewController.swift in Sources */,
 				19CE84291F0B2A6A005C0EC0 /* UIButton+MultipleTouches.swift in Sources */,
+				19D7A5641F6B66FF00EE78AE /* ToastOverlayViewController.swift in Sources */,
 				19CE83ED1F0B23B0005C0EC0 /* ViewController.swift in Sources */,
 				19CE84311F0B2A6A005C0EC0 /* UIView+Corner.swift in Sources */,
 				19CE84251F0B2A6A005C0EC0 /* NSDecimalNumberOperator.swift in Sources */,
@@ -344,6 +370,7 @@
 				19CE84221F0B2A6A005C0EC0 /* Enum+Enumerable.swift in Sources */,
 				19CE84341F0B2A6A005C0EC0 /* UIViewController+FrontViewController.swift in Sources */,
 				19CE844C1F0B2CF2005C0EC0 /* PickerViewController.swift in Sources */,
+				19CE7F481F0C882000D4F1CD /* BoardModel.swift in Sources */,
 				19CE84241F0B2A6A005C0EC0 /* NSDecimalNumberExtension.swift in Sources */,
 				19CE844A1F0B2CF2005C0EC0 /* DrawerViewController.swift in Sources */,
 				19CE84361F0B2A6A005C0EC0 /* UIViewExtension.swift in Sources */,
@@ -354,6 +381,7 @@
 				19CE842A1F0B2A6A005C0EC0 /* UIButton+TitleDesignable.swift in Sources */,
 				19CE842F1F0B2A6A005C0EC0 /* UIImageView+TemplateImage.swift in Sources */,
 				19CE842C1F0B2A6A005C0EC0 /* UIDevice+Platform.swift in Sources */,
+				19CE7F4A1F0C88B000D4F1CD /* Defines.swift in Sources */,
 				19CE7F411F0B60F100D4F1CD /* BoardViewController.swift in Sources */,
 				19CE84261F0B2A6A005C0EC0 /* StringExtension.swift in Sources */,
 				19CE84321F0B2A6A005C0EC0 /* UIViewController+DialogPresentable.swift in Sources */,

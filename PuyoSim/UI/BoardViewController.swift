@@ -13,7 +13,7 @@ class BoardViewController: UIViewController {
     
     @IBOutlet weak var backgroundView: UIView!
     
-    private var views: [[PuyoView]] = [[]]
+    private var views: [[PuyoView]] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,9 +22,9 @@ class BoardViewController: UIViewController {
     }
     
     private func createViews() {
-        (0 ..< UIDefines.Numbers.row).forEach{ row in
+        (0 ..< Defines.Numbers.row).forEach{ row in
             views.append([])
-            (0 ..< UIDefines.Numbers.column).forEach{ column in
+            (0 ..< Defines.Numbers.column).forEach{ column in
                 let view = PuyoView()
                 backgroundView.addSubview(view)
                 views[row].append(view)
@@ -34,12 +34,12 @@ class BoardViewController: UIViewController {
     
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
-        let width = view.frame.width / CGFloat(UIDefines.Numbers.column)
-        let height = view.frame.height / CGFloat(UIDefines.Numbers.row)
+        let width = view.frame.width / CGFloat(Defines.Numbers.column)
+        let height = view.frame.height / CGFloat(Defines.Numbers.row)
         
         views.enumerated().forEach{ row in
             row.element.enumerated().forEach{ column in
-                column.element.frame = CGRect(x: CGFloat(column.offset) * width, y: height * CGFloat(UIDefines.Numbers.row - row.offset - 1), width: width, height: height)
+                column.element.frame = CGRect(x: CGFloat(column.offset) * width, y: height * CGFloat(Defines.Numbers.row - row.offset - 1), width: width, height: height)
                 column.element.cornerRadius = height / 2
             }
         }
@@ -72,32 +72,16 @@ extension PuyoType {
         case .blank:
             return UIColor.clear
         case .red:
-            return UIDefines.Colors.red
+            return Defines.Colors.red
         case .green:
-            return UIDefines.Colors.green
+            return Defines.Colors.green
         case .blue:
-            return UIDefines.Colors.blue
+            return Defines.Colors.blue
         case .yellow:
-            return UIDefines.Colors.yellow
+            return Defines.Colors.yellow
         case .purple:
-            return UIDefines.Colors.puple
+            return Defines.Colors.puple
         }
-    }
-}
-
-class UIDefines{
-    
-    class Numbers {
-        static let row: Int = 13
-        static let column: Int = 6
-    }
-    
-    class Colors {
-        static let red: UIColor = UIColor.red
-        static let green: UIColor = UIColor.green
-        static let blue: UIColor = UIColor.blue
-        static let yellow: UIColor = UIColor.yellow
-        static let puple: UIColor = UIColor.purple
     }
 }
 
